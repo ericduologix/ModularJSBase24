@@ -1,0 +1,27 @@
+﻿{
+  "files": [
+      {
+      "pattern": "Scripts/jquery-1.10.2.js",
+      "instrument": false
+    },
+    {
+      "pattern": "Scripts/t3-testing.js",
+      "instrument": false
+    },
+    {
+      "pattern": "Scripts/sinon-1.17.2.js",
+      "instrument": false
+    },
+    {
+      "pattern": "Scripts/chai.js",
+      "instrument": false
+    },
+    "Scripts/modules/*.js"
+  ],
+
+  "tests": [
+    "Scripts/tests/*Tests.js"
+  ],
+  "testframework": "mocha"
+
+}
